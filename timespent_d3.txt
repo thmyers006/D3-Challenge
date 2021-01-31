@@ -1,0 +1,207 @@
+Time Spent on Pandas:
+
+Tuesday night 10/6: 		45min
+Wednesday morn 10/7: 	2hrs 
+Thursday	10/8:		5hr 45min
+Friday 10/9:		4hr 30min
+Saturday 10/10:		5:10am - 8:30am
+			2pm-5pm
+			7pm - 10:17pm (total 9hrs45min)
+Sunday			12pm - 6pm
+			8pm - 10:30 (total 8hrs30min)
+Monday			5:45pm - 6:30pm 
+			9:30pm - 11:00pm (total 2hr30min)
+Tuesday			6:30pm - 8:30pm (total 2hr)
+
+
+
+
+
+Time Spent on MatPlotLib:
+
+Monday 10/12-rewatch class		2hrs
+Tuesday 10/13-rewatch class		30min
+Wednesday 10/14-rewatch class	2hr30min	
+Thursday 10/15-rewatch class		3hrs
+Friday 10/16 - homework		3hrs45min
+Saturday 10/17 - homework		2pm - 5:10pm
+				7pm - 9pm(total 5hr10min)
+Sunday 10/18 - homework		12:20pm - 4:13pm(4hrs)
+Monday 10/19 - homework		45min
+Wednesday 10/21 - homework		1hr30min
+Total Time in estimate		26.33 hours
+
+
+
+Time Spent on Python API:
+Saturday 10/17 - homework		2hrs21min
+Thursday 10/22 - homework		2hrs
+Friday  10/23 - homework		2hrs14min
+Saturday 10/24 - homeWORK		3:45am - 4:45am
+				9:20am - 10:00am
+rewatching class			4:30pm - 7pm
+rewatching class			9:20pm - 9:50pm
+working on homeWORK		9:54pm - 12:39am
+13.50 hours so far				
+Sunday 10/25 - homeWORK		6hrs30min
+Monday 10/26 - homeWORK		2hrs30min
+Tuesday 10/27 - homeWORK		2hrs
+Thursday 10/29			?
+Friday 10/30			3hrs
+Saturday 10/31 Office Hours		4hrs
+Total Time:			31.5hours
+
+
+
+Time Spent on Project One
+Wednesday 10/21 in class		2hrs15min
+Saturday 10/24 in class		3hrs
+Sunday 10/25 			4hrs15min
+Monday 10/26			2hrs
+Monday 10/26 in class		3hrs				
+Wednesday 10/28			4hrs45min
+Wednesday 10/28 in class		2hrs30min
+Thursday 10/29			?
+Friday 10/30			1hr
+Saturday 10/31			3hrs30min
+So far 25.75 hours spent
+Sunday 11/1			1:30pm-5:30pm
+				11pm - 12:30am
+
+
+
+Time Spent on SQL Basic homework
+Saturday 11/7			2hrs
+Tuesday 11/10 			2hrs
+Thursday 11/12			4hrs25mins
+Friday 11/13			3hrs15mins
+Sunday 11/15			7hrs45mins
+Monday 11/16			2hrs
+Total Time Spent			21.5hrs	
+
+
+
+Time Spent on SQLAlchemy homework
+Tuesday 11/17			4hrs50min
+Wednesday 11/18			1hr45mins
+Thursday 11/19			1hr
+Friday 11/20			1hr30mins
+Saturday 11/21			4:15am - 7:30am
+				5:45pm - 10:30pm
+Sunday 11/22			12:15pm - 5:00pm
+				21.75 hrs so far
+Monday 11/23			30min w/Daniel
+Wednesday 11/25			2hrs
+Thursday 11/26			30mins
+Friday 11/27			4hrs45mins
+Saturday 11/28			1:30pm - 7:30pm
+Sunday 11/29			1:45pm - 6:15pm
+Monday 11/30 w/Dr.A		5:45pm - 6:15pm
+Thursday 12/3			5:00am - 6:50am
+Friday 12/4			5:15am - 7:00am
+				9:40pm - 12:58am
+Saturday 12/5			10:15pm - 11:20pm
+Total Time Spent = 48.5hours
+
++
+Time Spent on Web Design Homework
+Tuesday 12/1			1hr 30min
+				45min
+Wednesday 12/2			1hr 30pm
+Saturday 12/5			20min
+Sunday 12/6			2hr45min
+				1hr 30min
+Wednesday 12/9			4hr
+Thursday 12/10			1hr
+Friday 12/11			2hr 30min
+				3hr 45min
+Saturday 12/12			2hr 45min
+Sunday 12/13			2hr 45min
+Tuesday 12/15			1hr 15min			10:00pm - 12:30am
+Wednesday 12/16			35min
+Thursday 12/17			3hr 20min
+Saturday 12/19			1hr 45min
+Sunday 12/20			3hr 15min
+Sunday 12/20			2hr 20min
+Total Time 			34.25
+Tuesday 1/5			5:00am -6:30am
+				8:00pm - 8:20pm
+
+
+
+Web Scraping Homework:
+Monday 12/21			2hrs
+Tuesday 12/22			1hr 30min				7:20pm - 10:30pm
+Wednesday 12/23			1hr (w/steve thomas)
+Saturday 12/26			1hr 30min
+Sunday 12/27			2hrs estimated
+Monday 12/28			2hrs 20min
+				3hrs 30min
+Tuesday 12/29			3hrs
+Wednesday 12/30			3hrs
+Friday 1/1/21			3hrs 30min
+Saturday 1/2			5hrs
+				11:05pm - 1:28am 
+so far 30.75hours
+Sunday 1/3			3hrs30min				6:00pm - 11:30pm
+Tuesday 1/5			2hrs30min
+				1hr
+Wednesday 1/6			2hrs20min
+				20min
+				2hrs15min
+Thursday 1/7			1hr30min
+				4hrs45min
+Saturday 1/9			1:40am - 4:30am
+				9:15am - 9:45am w/Dr A and Daniel
+Total Time:  52.5hours
+
+
+JavaScript Homework:
+Saturday 1/9			1hr
+				1hr 45mins
+Sunday 1/10			3hrs
+Tuesday 1/12			1hr 45mins
+Thursday 1/14			1hr 30mins
+Friday 1/15			4hrs 15mins
+Total Time: 13.25hours
+
+
+Plotly Homework:
+Saturday 1/16			1hr 15mins
+Monday 1/18			1hr 30mins
+				10hrs 45mins
+Tuesday 1/19			some work
+Wednesday1/20			30mins
+Thursday 1/21			4hrs
+Friday 1/22			8hrs
+Saturday 1/23			25mins
+				2hr 45mins
+Sunday 1/24			4hrs 15mins
+Monday 1/25			25mins
+Wednesday 1/26			1hr30mins
+	deployment (3:15am- 4:30am)
+Total Time:  35hours30mins
+
+
+D3 Homework:
+Tuesday 1/26			2hrs
+Thursday 1/28			2hrs
+Friday 1/29			3hrs
+Saturday	1/30			3:45am - 6:00am
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
