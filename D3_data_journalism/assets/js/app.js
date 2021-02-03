@@ -7,13 +7,13 @@ var margin = {
   right: 40,
   bottom: 100,
   left: 100
-};
+  };
 
 var width = svgWidth - margin.left - margin.right;
 var height = svgHeight - margin.top - margin.bottom;
 
 // Create an SVG wrapper, append an SVG group that will hold our chart, and shift the latter by left and top margins.
-var svg = d3.select("#scatter") // changed from ".chart"
+var svg = d3.select("#scatter") 
   .append("svg")
   .attr("width", svgWidth)
   .attr("height", svgHeight);
@@ -23,7 +23,7 @@ var chartGroup = svg.append("g")
 
 // Import Data
 d3.csv("assets//js//data.csv").then(function(stateData) {
-    //console.log(stateData);
+    console.log(stateData);
 
     // Step 1: Parse Data/Cast as numbers
     // ==============================
@@ -32,8 +32,7 @@ d3.csv("assets//js//data.csv").then(function(stateData) {
       stateData.age = +stateData.age;
       stateData.income = +stateData.income;
       stateData.smokes = +stateData.smokes;
-      
-    });
+      });
 
     // Step 2: Create scale functions
     // ==============================
@@ -59,26 +58,20 @@ d3.csv("assets//js//data.csv").then(function(stateData) {
     chartGroup.append("g")
       .call(leftAxis);
 
-
+    // Step 5: Create tooltip in the chart
+    // ===============================
       var toolTip = d3.tip()
       .attr("class", "d3-tip")
       .offset([80, -60])
       .html(function(s) {
           return (`${s.state}<br> Percentage of Smokers: ${s.smokes}<br>Average Age: ${s.age}`);
-          
-          });
+          });       
     
-          
-    // Step 7: Create tooltip in the chart
-    // ==============================
     chartGroup.call(toolTip);
 
-    // Step 8: Create event listeners to display and hide the tooltip
-    // ==============================
-    
 
-
-    // Create axes labels
+    // Step 6: Create axes labels
+    // ===============================
     chartGroup.append("text")
       .attr("transform", "rotate(-90)")
       .attr("y", 0 - margin.left + 40)
@@ -92,42 +85,45 @@ d3.csv("assets//js//data.csv").then(function(stateData) {
       .attr("class", "axisText")
       .text("Percentage of Smokers");
   
-    // Step 5: Create Circles
-    // ==============================
+    // Step 7: Create Circles with Event Listeners
+    // ================================
     var circlesGroup = chartGroup.selectAll("circle")
-    .data(stateData)
-    .enter()
-    .append("circle")
-    .attr("cx", s => xLinearScale(s.smokes))
-    .attr("cy", s => yLinearScale(s.age))
-    .attr("r", "15")
-    .attr("fill", "blue")
-    .attr("opacity", ".5")
-    .on("mouseover", function(d) {
-        toolTip.show(d, this);
-        console.log("mouseover", d)
-    })
-    .on("mouseout", function(d) {
-      toolTip.hide(d);
-    })
+      .data(stateData)
+      .enter()
+      .append("circle")
+      .attr("cx", s => xLinearScale(s.smokes))
+      .attr("cy", s => yLinearScale(s.age))
+      .attr("r", "15")
+      .attr("fill", "blue")
+      .attr("opacity", ".5")
+      .on("mouseover", function(d) {
+          toolTip.show(d, this);
+          //console.log("mouseover", d)
+      })
+      .on("mouseout", function(d) {
+        toolTip.hide(d);
+      })
 
-
+    // Step 8: Create text to identify circles with Event Listeners
+    // =================================
     var textGroup = chartGroup.selectAll("rect")
       .data(stateData)
       .enter()
       .append("text")
       .attr("x", s => xLinearScale(s.smokes) - 10)
-      .attr("y", s => yLinearScale(s.age) +5)
+      .attr("y", s => yLinearScale(s.age) + 5)
       .style("fill", "black")
       .text(function(s) {
           return `${s.abbr}`;
           })
       .on("mouseover", function(d) {
             toolTip.show(d, this);
-            console.log("mouseover", d)
+           // console.log("mouseover", d)
         })
       .on("mouseout", function(d) {
           toolTip.hide(d);
         })
-    
-});
+
+}).catch(function(error) {
+        console.log(error);
+});  
